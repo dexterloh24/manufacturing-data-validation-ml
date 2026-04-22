@@ -2,7 +2,9 @@
 
 Machine learning workflow for identifying process inputs associated with manufacturing validation failures.
 
-This repository uses a synthetic manufacturing dataset to demonstrate the same type of applied analytics workflow used in production environments: data validation, feature engineering, classification modeling, model evaluation, and driver interpretation. The data is synthetic so the project can be shared publicly without exposing proprietary build, test, or quality records.
+This repository demonstrates an applied analytics workflow for manufacturing-style validation data: data quality checks, feature engineering, classification modeling, model evaluation, and driver interpretation.
+
+**Data note:** The included dataset is a generated sample dataset for public portfolio use. It is structured to resemble manufacturing build, process, and validation records without exposing proprietary production data.
 
 ## Business Problem
 
@@ -26,7 +28,7 @@ Example target:
 ```text
 .
 |-- data/
-|   |-- synthetic_manufacturing_validation.csv
+|   |-- sample_manufacturing_validation.csv
 |-- reports/
 |   |-- figures/
 |   |-- feature_importance.csv
@@ -34,7 +36,7 @@ Example target:
 |   |-- model_summary.md
 |-- src/
 |   |-- generate_charts.py
-|   |-- generate_synthetic_data.py
+|   |-- generate_sample_data.py
 |   |-- train_model.py
 |-- requirements.txt
 |-- README.md
@@ -54,7 +56,7 @@ The pipeline uses a logistic classifier implemented with NumPy so the project re
 
 ## Key Inputs
 
-Synthetic features include:
+Key fields include:
 
 - `line_id`
 - `shift`
@@ -82,7 +84,7 @@ Current holdout performance:
 - F1: 0.693
 - ROC AUC: 0.760
 
-Top modeled drivers include process temperature deviation, calibration age, rework count, machine downtime, incoming inspection score, pressure deviation, batch size, and night shift. These are realistic examples of variables that can support targeted engineering review, not proof of a real production process.
+Top modeled drivers include process temperature deviation, calibration age, rework count, machine downtime, incoming inspection score, pressure deviation, batch size, and night shift. These variables represent the types of upstream process signals that can support targeted engineering review.
 
 ## Visual Summary
 
@@ -106,7 +108,7 @@ Top modeled drivers include process temperature deviation, calibration age, rewo
 
 ```bash
 pip install -r requirements.txt
-python src/generate_synthetic_data.py
+python src/generate_sample_data.py
 python src/train_model.py
 python src/generate_charts.py
 ```

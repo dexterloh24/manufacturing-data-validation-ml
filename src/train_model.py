@@ -6,7 +6,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "data" / "synthetic_manufacturing_validation.csv"
+DATA_PATH = ROOT / "data" / "sample_manufacturing_validation.csv"
 REPORT_DIR = ROOT / "reports"
 METRICS_PATH = REPORT_DIR / "model_metrics.json"
 IMPORTANCE_PATH = REPORT_DIR / "feature_importance.csv"

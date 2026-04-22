@@ -5,7 +5,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "data" / "synthetic_manufacturing_validation.csv"
+DATA_PATH = ROOT / "data" / "sample_manufacturing_validation.csv"
 
 
 def sigmoid(value):
