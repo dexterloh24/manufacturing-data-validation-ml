@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="white"/>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="24" fill="#0f172a" font-weight="700" text-anchor="start">Top Process Drivers</text>
+  <text x="40" y="68" font-family="Arial, sans-serif" font-size="13" fill="#64748b" font-weight="400" text-anchor="start">Permutation importance measured as ROC AUC drop on holdout data</text>
+  <line x1="270" y1="75" x2="270" y2="435" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="258" y="116" font-family="Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="400" text-anchor="end">material age days</text>
+  <rect x="270" y="101" width="56.2200956937799" height="18" rx="3" fill="#2563eb" stroke="none"/>
+  <text x="334.2200956937799" y="116" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="start">0.007</text>
+  <text x="258" y="150" font-family="Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="400" text-anchor="end">supplier tier Tier 2</text>
+  <rect x="270" y="135" width="61.688311688311686" height="18" rx="3" fill="#2563eb" stroke="none"/>
+  <text x="339.68831168831167" y="150" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="start">0.007</text>
+  <text x="258" y="184" font-family="Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="400" text-anchor="end">shift Night</text>
+  <rect x="270" y="169" width="101.07655502392345" height="18" rx="3" fill="#2563eb" stroke="none"/>
+  <text x="379.07655502392345" y="184" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="start">0.012</text>
+  <text x="258" y="218" font-family="Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="400" text-anchor="end">batch size</text>
+  <rect x="270" y="203" width="107.74094326725904" height="18" rx="3" fill="#2563eb" stroke="none"/>
+  <text x="385.740943267259" y="218" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="start">0.013</text>
+  <text x="258" y="252" font-family="Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="400" text-anchor="end">pressure abs deviation</text>
+  <rect x="270" y="237" width="122.52221462747778" height="18" rx="3" fill="#2563eb" stroke="none"/>
+  <text x="400.52221462747775" y="252" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="start">0.014</text>
+  <text x="258" y="286" font-family="Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="400" text-anchor="end">incoming inspection score</text>
+  <rect x="270" y="271" width="135.4237867395762" height="18" rx="3" fill="#2563eb" stroke="none"/>
+  <text x="413.4237867395762" y="286" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="start">0.016</text>
+  <text x="258" y="320" font-family="Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="400" text-anchor="end">machine downtime min</text>
+  <rect x="270" y="305" width="261.7053998632946" height="18" rx="3" fill="#2563eb" stroke="none"/>
+  <text x="539.7053998632946" y="320" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="start">0.031</text>
+  <text x="258" y="354" font-family="Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="400" text-anchor="end">rework count</text>
+  <rect x="270" y="339" width="400.4613807245386" height="18" rx="3" fill="#2563eb" stroke="none"/>
+  <text x="678.4613807245387" y="354" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="start">0.047</text>
+  <text x="258" y="388" font-family="Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="400" text-anchor="end">calibration days since</text>
+  <rect x="270" y="373" width="407.04032809295967" height="18" rx="3" fill="#2563eb" stroke="none"/>
+  <text x="685.0403280929597" y="388" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="start">0.048</text>
+  <text x="258" y="422" font-family="Arial, sans-serif" font-size="13" fill="#0f172a" font-weight="400" text-anchor="end">temp abs deviation</text>
+  <rect x="270" y="407" width="500.0" height="18" rx="3" fill="#2563eb" stroke="none"/>
+  <text x="778.0" y="422" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="start">0.059</text>
+</svg>

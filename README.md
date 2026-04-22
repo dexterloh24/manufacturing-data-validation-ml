@@ -28,10 +28,12 @@ Example target:
 |-- data/
 |   |-- synthetic_manufacturing_validation.csv
 |-- reports/
+|   |-- figures/
 |   |-- feature_importance.csv
 |   |-- model_metrics.json
 |   |-- model_summary.md
 |-- src/
+|   |-- generate_charts.py
 |   |-- generate_synthetic_data.py
 |   |-- train_model.py
 |-- requirements.txt
@@ -82,12 +84,31 @@ Current holdout performance:
 
 Top modeled drivers include process temperature deviation, calibration age, rework count, machine downtime, incoming inspection score, pressure deviation, batch size, and night shift. These are realistic examples of variables that can support targeted engineering review, not proof of a real production process.
 
+## Visual Summary
+
+### Process Driver Importance
+
+![Feature importance](reports/figures/feature_importance.svg)
+
+### Holdout Confusion Matrix
+
+![Confusion matrix](reports/figures/confusion_matrix.svg)
+
+### Manufacturing Line Failure Rate
+
+![Failure rate by line](reports/figures/failure_rate_by_line.svg)
+
+### Calibration Age Risk Trend
+
+![Calibration failure trend](reports/figures/calibration_failure_trend.svg)
+
 ## Run Locally
 
 ```bash
 pip install -r requirements.txt
 python src/generate_synthetic_data.py
 python src/train_model.py
+python src/generate_charts.py
 ```
 
 ## Why This Matters

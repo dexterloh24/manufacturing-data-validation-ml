@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="460" viewBox="0 0 820 460">
+  <rect width="820" height="460" fill="white"/>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="23" fill="#0f172a" font-weight="700" text-anchor="start">Failure Rate vs. Calibration Age</text>
+  <text x="40" y="68" font-family="Arial, sans-serif" font-size="13" fill="#64748b" font-weight="400" text-anchor="start">Older calibration age is modeled as a validation risk driver</text>
+  <line x1="90" y1="92" x2="90" y2="362" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="90" y1="362" x2="740" y2="362" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="90.0" y1="232.19230769230768" x2="220.0" y2="215.2608695652174" stroke="#2563eb" stroke-width="3"/>
+  <line x1="220.0" y1="215.2608695652174" x2="350.0" y2="198.81318681318683" stroke="#2563eb" stroke-width="3"/>
+  <line x1="350.0" y1="198.81318681318683" x2="480.0" y2="165.57142857142858" stroke="#2563eb" stroke-width="3"/>
+  <line x1="480.0" y1="165.57142857142858" x2="610.0" y2="173.2903225806452" stroke="#2563eb" stroke-width="3"/>
+  <line x1="610.0" y1="173.2903225806452" x2="740.0" y2="92.0" stroke="#2563eb" stroke-width="3"/>
+  <circle cx="90.0" cy="232.19230769230768" r="6" fill="#2563eb"/>
+  <text x="90.0" y="390" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="middle">0-7</text>
+  <text x="90.0" y="220.19230769230768" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" font-weight="700" text-anchor="middle">38%</text>
+  <circle cx="220.0" cy="215.2608695652174" r="6" fill="#2563eb"/>
+  <text x="220.0" y="390" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="middle">8-14</text>
+  <text x="220.0" y="203.2608695652174" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" font-weight="700" text-anchor="middle">43%</text>
+  <circle cx="350.0" cy="198.81318681318683" r="6" fill="#2563eb"/>
+  <text x="350.0" y="390" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="middle">15-21</text>
+  <text x="350.0" y="186.81318681318683" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" font-weight="700" text-anchor="middle">48%</text>
+  <circle cx="480.0" cy="165.57142857142858" r="6" fill="#2563eb"/>
+  <text x="480.0" y="390" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="middle">22-28</text>
+  <text x="480.0" y="153.57142857142858" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" font-weight="700" text-anchor="middle">58%</text>
+  <circle cx="610.0" cy="173.2903225806452" r="6" fill="#2563eb"/>
+  <text x="610.0" y="390" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="middle">29-35</text>
+  <text x="610.0" y="161.2903225806452" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" font-weight="700" text-anchor="middle">56%</text>
+  <circle cx="740.0" cy="92.0" r="6" fill="#2563eb"/>
+  <text x="740.0" y="390" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="middle">36+</text>
+  <text x="740.0" y="80.0" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" font-weight="700" text-anchor="middle">80%</text>
+  <text x="72" y="98" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="end">80%</text>
+  <text x="72" y="366" font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="400" text-anchor="end">0%</text>
+</svg>
